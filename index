@@ -104,7 +104,7 @@
 
     window.onload = function() {
       // Initialize LIFF app with login required
-      liff.init({ liffId: 'U7f3d8f57f09cbe332c4c73700d4b8d4c' })
+      liff.init({ liffId: '2008460105-E2LnzX61' })
         .then(() => {
           if (!liff.isLoggedIn()) {
             liff.login();
